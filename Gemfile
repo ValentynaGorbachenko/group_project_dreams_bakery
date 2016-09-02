@@ -29,6 +29,9 @@ gem 'rename'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'figaro'
+
+gem 'rails-footnotes', '>=4.0.0', '<5'
+
 group :test, :development do
 	gem 'rspec' ## ???
   gem 'rspec-rails'
